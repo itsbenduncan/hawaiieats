@@ -5,16 +5,12 @@ font-family: 'Nunito', sans-serif;
 font-family: 'Raleway', sans-serif; 
 */
 
-body, html {
-  margin: 0;
-  width: 100vw;
-  height: 100vh;
-  font-family: 'Nunito', sans-serif;
-  display: flex;
-  flex-wrap: wrap;
-}
+.documentary {
+    height: calc(100%-100px);
+    width: 100%;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-top: 100px;
 }

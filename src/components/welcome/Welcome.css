@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;900&family=Raleway:wght@100;300;400;500;700;900&display=swap');
+
+/* 
+font-family: 'Nunito', sans-serif;
+font-family: 'Raleway', sans-serif; 
+*/
+
+.welcome {
+    background: url(./welcome.jpg) no-repeat center center fixed;
+    background-size: cover;
+
+    height: 100vh;
+    width: 100vw;
+}
+
+.welcome-text {
+    height: 100%;
+    width: 100%;
+
+    background-color: rgba(100, 100, 100, .25);
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+
+    font-family: 'Raleway', sans-serif; 
+    color: white;
+}
+
+.welcome-title {
+    width: 100%;
+
+    font-family: 'Nunito', sans-serif;
+    font-size: 5em;
+    font-style: italic;
+
+    text-align: center;
+}
+
+.welcome-message {
+    width: 75%;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 300;
+}
+
+.followbutton {
+    width: 100%;
+    margin-top: 10px;
+    
+    display: flex;
+    justify-content: center;
+}
