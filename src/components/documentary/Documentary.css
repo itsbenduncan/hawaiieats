@@ -7,10 +7,21 @@ font-family: 'Raleway', sans-serif;
 
 .documentary {
     height: calc(100%-100px);
-    width: 100%;
+    width: 100vw;
 
     display: flex;
     flex-wrap: wrap;
 
     margin-top: 100px;
+    justify-content: center;
+}
+
+.coming-soon {
+    width: 100%;
+    text-align: center;
+}
+
+.synopsis {
+    width: 70%;
+    text-align: justify;
 }

@@ -29,15 +29,17 @@ font-family: 'Raleway', sans-serif;
 .about-text {
     margin-top: 25px;
     width: 60%;
-    font-size: 2em;
+    font-size: 1.5em;
     font-family: 'Raleway', sans-serif;
     text-align: justify;
 
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 #foodsource {
     width: 100%;
+    z-index: -1;
 }

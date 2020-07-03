@@ -4,3 +4,30 @@
 font-family: 'Nunito', sans-serif;
 font-family: 'Raleway', sans-serif; 
 */
+
+.resources {
+    height: calc(100%-100px);
+    width: 100vw;
+    margin-top: 100px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.resources-main {
+    width: 75%;
+}
+
+#body-link {
+    color: black;
+}
+
+#references-list {
+    list-style: none;
+}
+
+#reference-link {
+    color: blue;
+    text-decoration: underline;
+}
