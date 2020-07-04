@@ -5,19 +5,46 @@ const Resources = () => {
     return (
         <div className="resources">
             <div className="resources-main">
-            <div className="producers-container">
-                    <h1>Local Producers</h1>
-                    <a id="body-link" href="https://gofarmhawaii.org/find-your-farmer/">Find a farmer</a>
+                <div className="producers-container">
+                    <h1 id="heading">Local Producers</h1>
+                    <button className="btn">
+                        <a target="_blank" href="https://gofarmhawaii.org/find-your-farmer/">Find a farmer</a>
+                    </button>
                 </div>
                 <div className="orgs-container">
-                    <h1>Organizations</h1>
-                    <a id="body-link" href="https://www.kokuahawaiifoundation.org/aina">A`ina in the Schools (Kokua Foundation)</a>
+                    <h1 id="heading">Organizations</h1>
+                    <button className="btn">
+                        <a target="_blank" href="https://www.kokuahawaiifoundation.org/">Kokua Foundation</a>
+                    </button>
+                    <button className="btn">
+                        <a target="_blank" href="https://kohalacenter.org/hpsi">Hawai`i Public Seed Foundation</a>
+                    </button>
+                    <button className="btn">
+                        <a target="_blank" href="https://malamakauai.org/">Malama Kauai</a>
+                    </button>
+                    <button className="btn">
+                        <a target="_blank" href="https://alohaharvest.org/">Aloha Harvest</a>
+                    </button>
                 </div>
                 <div className="policy-container">
-                    <h1>Policy Declorations</h1>
+                    <h1 id="heading">Policy Article</h1>
+                    <div className="policy">
+                    There is no disputing that Hawai`i’s excessive reliance on imported food goods is an unsustainable system. 
+                    In order to make Hawai`i more resilient and independent, we implore the state to offer economic and funding 
+                    incentives for local food producers. Large scale farming and ranching has been a viable income for many years. 
+                    Recently however, mass production has shown to be a grave competitor. Through multiple financial and economic 
+                    programs, we can begin to address this issue and create a more sustainable food ecosystem. Detailed below are 
+                    suggestions for policy-makers to take action:
+                    </div>
+                    <ul className="policy-list">
+                        <li>Striking the income tax on goods sold at farmers markets.</li>
+                        <li>State sponsored funding for organizations looking to research or implement sustainable and organic farming practices.</li>
+                        <li>Lower sales tax on local food goods at markets, or higher sales tax on select imported goods that can be found locally.</li>
+                        <li>State Grant: Eligibility will be for those not producing one of the top three food products (ranked by quantity).</li>
+                    </ul>
                 </div>
                 <div className="references">
-                    <h1>References</h1>
+                    <h1 id="heading">References</h1>
                     <ul id="references-list">
                         <li>1.	Schwartz, J. D. (2019). Water in plain sight: Hope for a thirsty world. New York: St. Martins Press.</li>
                         <li>2.	Seufert, V., Ramankutty, N., & Mayerhofer, T. (2017). What is this thing called organic? – How organic farming is codified in regulations. Food Policy, 68, 10-20. doi:10.1016/j.foodpol.2016.12.009</li>

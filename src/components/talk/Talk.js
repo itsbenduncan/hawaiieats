@@ -27,9 +27,19 @@ const Talk = () => {
                     <input type="text" id="message" name="name" />
                 </div>
                 <div className="submit-button">
-                    <input type="submit" id="submit" value="Send your message!" />
+                    <button className="btn">
+                        <input type="submit" id="submit" value="Send your message!" />
+                    </button>
                 </div>
+                <button id="insta" className="btn">
+                    Follow us on Instagram!
+                </button>
             </div>
+            {/* <div className="insta">
+                <button className="btn">
+                    Follow us on Instagram!
+                </button>
+            </div> */}
         </div>
     )
 }

@@ -68,3 +68,36 @@ font-family: 'Raleway', sans-serif;
     font-family: 'Raleway', sans-serif;
     font-size: 1.5em;
 }
+
+#insta {
+    margin-top: 50px;
+}
+
+.btn {
+    outline:none;
+    border:none;
+    cursor:pointer;
+    display:block;
+    position:relative;
+    background-color:rgb(0, 125, 30);
+    /* font-size: 16px;
+    font-weight:300px;
+    font-family:Lato; */
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 25px 25px;
+    margin: 0 auto;
+    /* border-radius: 20px; */
+    box-shadow: 0 6px rgb(0, 100, 20);
+  }
+  
+  .btn:hover{
+    box-shadow: 0 4px rgb(0, 100, 20);
+    top: 2px;
+  }
+  
+  .btn:active{
+    box-shadow: none;
+    top: 6px;
+  }
