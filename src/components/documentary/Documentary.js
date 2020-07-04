@@ -5,6 +5,7 @@ import './Documentary.css';
 const Documentary = () => {
     return (
         <div className="documentary">
+            <h1 className="title">Hawai`i Eats Sustainable - the documentary</h1>
             <div className="coming-soon">
                 <div className="soil">
                     <div className="layer">Coming Soon!</div>

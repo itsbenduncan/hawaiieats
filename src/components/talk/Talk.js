@@ -32,7 +32,7 @@ const Talk = () => {
                     </button>
                 </div>
                 <button id="insta" className="btn">
-                    Follow us on Instagram!
+                    <a target="_blank" href="https://www.instagram.com/hawaii_eats_sustainable/">Follow us on Instagram!</a>
                 </button>
             </div>
             {/* <div className="insta">

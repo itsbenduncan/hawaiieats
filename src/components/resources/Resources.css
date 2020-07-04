@@ -36,6 +36,8 @@ font-family: 'Raleway', sans-serif;
     width: 100%;
     border-bottom: 2px solid black;
     margin-top: 50px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 2em;
 }
 
 .orgs-container {
@@ -44,12 +46,14 @@ font-family: 'Raleway', sans-serif;
     flex-wrap: wrap;
 }
 
-.policy-container {
+.policy {
     font-size: 1.3em;
     font-family: 'Raleway', sans-serif; 
 }
 
 .policy-list {
+    font-size: 1.3em;
+    font-family: 'Raleway', sans-serif; 
     line-height: 2em;
 }
 

@@ -6,13 +6,13 @@ const Resources = () => {
         <div className="resources">
             <div className="resources-main">
                 <div className="producers-container">
-                    <h1 id="heading">Local Producers</h1>
+                    <h1 id="heading">Local Producers - buy local, eat local!</h1>
                     <button className="btn">
                         <a target="_blank" href="https://gofarmhawaii.org/find-your-farmer/">Find a farmer</a>
                     </button>
                 </div>
                 <div className="orgs-container">
-                    <h1 id="heading">Organizations</h1>
+                    <h1 id="heading">Organizations - get involved!</h1>
                     <button className="btn">
                         <a target="_blank" href="https://www.kokuahawaiifoundation.org/">Kokua Foundation</a>
                     </button>
@@ -27,7 +27,7 @@ const Resources = () => {
                     </button>
                 </div>
                 <div className="policy-container">
-                    <h1 id="heading">Policy Article</h1>
+                    <h1 id="heading">Article for Policy Makers</h1>
                     <div className="policy">
                     There is no disputing that Hawai`i’s excessive reliance on imported food goods is an unsustainable system. 
                     In order to make Hawai`i more resilient and independent, we implore the state to offer economic and funding 
